@@ -6,5 +6,10 @@ public class Main {
 
     int occurrences = BinarySearchTasks.countOccurrences(array, target);
     System.out.println("Target " + target + " = " + occurrences + " Occurrences");
+
+    // Example usage of findIndex method
+    int[] rotatedArray = { 6, 7, 8, 2, 3, 4, 5 };
+    int targetIndex = BinarySearchTasks.findIndex(rotatedArray, target);
+    System.out.println("Target " + target + " = " + targetIndex);
   }
 }
